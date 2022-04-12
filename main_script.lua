@@ -1513,6 +1513,7 @@ MasterToggleBool = false
 
 Kill.MouseButton1Click:Connect(function()
 	MainUI:Destroy()
+	Model:Destroy()
 	script:Destroy()
 end)
 
